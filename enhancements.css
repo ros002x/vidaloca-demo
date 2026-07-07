@@ -15,6 +15,7 @@
 
 @keyframes seaDrift{from{transform:translateX(-1.4%) scaleX(1.03)}to{transform:translateX(1.4%) scaleX(1.03)}}
 @media(max-width:520px){.header.island{display:flex;padding-right:64px}.island .logo span{font-size:14px}.island .top-book{display:none}.island .menu-toggle{display:grid!important;position:absolute;right:9px;top:9px}.mobile-menu{padding-top:100px}}
+.mobile-cta .menu-shortcut{border:0;background:var(--coral)}
 @media(min-width:780px){.island .menu-toggle{display:none!important}.real-menu{padding:38px 42px}.real-menu-grid{grid-template-columns:1fr 1fr;gap:38px 55px}.real-menu-grid section h3{font-size:30px}.real-menu-grid article b{font-size:18px}.sea-divider{height:91px;margin-top:-88px}}
 @media(max-width:520px){.real-menu{padding:20px 17px}.real-menu>header>b{font-size:23px}.real-menu-grid{gap:24px}.real-menu>footer{flex-direction:column;align-items:flex-start}.real-menu>footer .button{width:100%;text-align:center}}
 @media(prefers-reduced-motion:reduce){.sea-divider svg{animation:none}}
